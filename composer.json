@@ -1,0 +1,26 @@
+{
+    "name":              "bldr-io/remote-block",
+    "description":       "Block for handling remote execution",
+    "require":           {
+       "phpseclib/phpseclib":        "~0.3.0"
+    },
+    "require-dev":       {
+        "bldr-io/bldr":              "~4.1",
+        "dflydev/embedded-composer": "dev-master",
+        "composer/composer":         "dev-master"
+    },
+    "license":           "MIT",
+    "authors":           [
+        {
+            "name":  "Mauricio Walters",
+            "email": "nvitius@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":          {
+        "psr-4": {
+            "Bldr\\Block\\Remote\\": "src/"
+        }
+    }
+}
+
